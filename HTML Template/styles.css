@@ -2,10 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(33, 110, 112);
+background: linear-gradient(180deg, #FFFFFF 0%, #C9B8F0 100%);
     color: black;
     line-height: 1.6;
-    background-image: url('./images/background.jpg');
+    /* background-image: url('./images/background.jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: repeat; 
@@ -89,7 +89,10 @@ button:hover {
 }
 
 nav {
-    background-color: rgb(46, 94, 170);
+    background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(201, 184, 240, 0.3);
+    /* background-color: whitesmoke; */
     padding: 10px 20px;
     display: flex;
     justify-content: center;
@@ -97,7 +100,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #6B4FA0;
     font-weight: bold;
 }
 
@@ -124,8 +127,10 @@ main p {
 }
 
 footer {
-    background-color: #004080;
-    color: white;
+       background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(201, 184, 240, 0.3);
+    color: #6B4FA0;
     text-align: center;
     padding: 10px 0;
     position: relative;
