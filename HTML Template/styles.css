@@ -35,7 +35,7 @@ section {
     padding: 20px;
     width: 800px; 
     min-height: 200px; 
-       background: rgba(255, 255, 255, 0.7);
+       background: transparent ;
     /* color: black;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
@@ -47,10 +47,10 @@ section.profile {
     max-width: 800px; 
     margin: 20px auto; 
     padding-left: 20px;
-    background-color: white;
-    color: black;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    /* color: black; */
+    /* border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     /* border: 2px solid rgb(229, 45, 77); */
     display: block; 
 }
@@ -236,7 +236,7 @@ contact-icons img:hover {
  max-width: 800px; 
     margin: 120px auto; 
     padding-left: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
     background-color: transparent;
    /* color: black; */
     border-radius: none;
@@ -269,3 +269,84 @@ letter-spacing: -0.02em;
   margin-bottom: 3rem;
   letter-spacing: 0.01em;
 }
+
+
+
+/* About me  */
+
+.section-about-me{
+        font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #9B7FD4 ;
+    margin-bottom: 1rem;
+}
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8rem;
+    align-items: start;
+    margin-top: 3rem;
+}
+.about-grid p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 300;
+    line-height: 1.15;
+    color: #1A0D2E;
+    letter-spacing: -0.01em;
+}
+.about-grid em{
+        font-style: italic;
+    color: #6B4FA0;
+}
+.about-me-dev{
+        font-size: 1.2rem;
+    line-height: 1.8;
+    color:#5A4A7A;
+    font-weight: 300;
+        
+}
+
+/* Hobbies */
+
+.hobbies-row {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .hobby-tag {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.6rem 1.2rem;
+    background: rgba(255,255,255,0.6);
+    border: 1px solid rgba(201,184,240,0.5);
+    border-radius: 50px;
+    font-size: 0.85rem;
+    color: var(--text-mid);
+    font-weight: 400;
+    transition: all 0.2s;
+  }
+  .section-label-hobby{
+     font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #9B7FD4 ;
+    margin-bottom: 1rem;
+  }
+  .hobby-h2{
+     font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 300;
+    line-height: 1.15;
+    color: #1A0D2E;
+    letter-spacing: -0.01em;
+    text-align: left;
+  }
+  .hobby-h2 em{
+    font-style: italic;
+    color: #6B4FA0;
+  }
