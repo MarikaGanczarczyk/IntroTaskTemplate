@@ -350,3 +350,80 @@ letter-spacing: -0.02em;
     font-style: italic;
     color: #6B4FA0;
   }
+
+  /* Past experience  */
+.section-label {
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #9b7fd4;
+    margin-bottom: 1rem;
+}
+.section-label-h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 300;
+    line-height: 1.15;
+    color: #1a0d2e;
+    letter-spacing: -0.01em;
+}
+.section-label-h2 em {
+    font-style: italic;
+    color: #6b4fa0;
+}
+.experience-section {
+  padding: 7rem 4rem;
+}
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.exp-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(201, 184, 240, 0.4);
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.exp-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(107, 79, 160, 0.15);
+}
+
+.exp-icon {
+  font-size: 2rem;
+}
+
+.exp-category {
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #9B7FD4;
+  margin-bottom: 0.3rem;
+}
+
+.exp-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #1A0D2E;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.exp-desc {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #5A4A7A;
+  line-height: 1.7;
+}
