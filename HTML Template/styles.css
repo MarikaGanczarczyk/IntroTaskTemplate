@@ -394,7 +394,7 @@ letter-spacing: -0.02em;
 }
 
 .exp-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-6px);                  
   box-shadow: 0 16px 40px rgba(107, 79, 160, 0.15);
 }
 
@@ -426,4 +426,14 @@ letter-spacing: -0.02em;
   font-weight: 300;
   color: #5A4A7A;
   line-height: 1.7;
+}
+
+/* Communication  */
+
+.setion-communication{
+      font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color:#9b7fd4;
+    margin-bottom: 1rem;
 }
