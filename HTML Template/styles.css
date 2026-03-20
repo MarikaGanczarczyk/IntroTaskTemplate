@@ -437,3 +437,88 @@ letter-spacing: -0.02em;
     color:#9b7fd4;
     margin-bottom: 1rem;
 }
+
+
+/* SDLC */
+
+/* ====== OUTER WRAPPER ====== */
+.stage-wrapper {
+  background: rgba(255, 255, 255, 0.45);
+  
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 24px rgba(201, 184, 240, 0.3);
+  border-radius: 10px;
+  padding: 14px;
+  margin: 16px auto;
+  max-width: 600px; /* ogranicza szerokość */
+}
+
+.stage-title {
+      font-size: 1.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #9B7FD4;
+    margin-bottom: 1rem;
+         font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+
+/* ====== INNER CARDS ROW ====== */
+.stage-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 równe kolumny */
+  grid-template-rows: auto auto;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+/* ====== WHAT HAPPENS - lewa duża karta ====== */
+.stage-card:nth-child(1) {
+  grid-column: 1 / 4; /* rozciąga się na wszystkie 3 kolumny */
+  border-top: 2px solid #4a90d9;
+}
+
+/* ====== TRZY MAŁE NA DOLE ====== */
+.stage-card:nth-child(2) { border-top: 2px solid #27ae60; }
+.stage-card:nth-child(3) { border-top: 2px solid #e67e22; }
+.stage-card:nth-child(4) { border-top: 2px solid #8e44ad; }
+/* ====== SINGLE CARD ====== */
+.stage-card {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  padding: 8px 10px;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 10px rgba(201, 184, 240, 0.2);
+}
+
+.stage-card h3 {
+      font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #9B7FD4;
+    margin-bottom: 1rem;
+         font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+
+.stage-card p {
+  font-size: 0.7rem;
+  color: #444;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.stage-card ul {
+  padding-left: 12px;
+  margin: 0;
+}
+
+.stage-card ul li {
+  font-size: 0.7rem;
+  color: #444;
+  line-height: 1.6;
+}
