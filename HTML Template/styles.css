@@ -452,7 +452,7 @@ letter-spacing: -0.02em;
   border-radius: 10px;
   padding: 14px;
   margin: 16px auto;
-  max-width: 600px; /* ogranicza szerokość */
+  max-width: 600px; 
 }
 
 .stage-title {
